@@ -1,0 +1,32 @@
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment and secrets
+.env
+.env.*
+
+# Project outputs
+outputs/
+figures/
+models/
+artifacts/
+*.pkl
+*.joblib
+*.parquet
+
+# IDE / OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
