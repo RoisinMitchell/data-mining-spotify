@@ -38,13 +38,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Register the environment as a Jupyter kernel:
-
-```powershell
-python -m ipykernel install --user --name cs4168-project --display-name "Python (CS4168 Project)"
-```
-
-Then select `Python (CS4168 Project)` inside Jupyter or VS Code for the notebooks.
+Then select the Python .venv inside Jupyter or VS Code for the notebooks.
 
 ## Updating Dependencies
 
@@ -64,5 +58,4 @@ py -3.12 -m venv .venv
 .\\.venv\\Scripts\\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-python -m ipykernel install --user --name cs4168-project --display-name "Python (CS4168 Project)"
 ```

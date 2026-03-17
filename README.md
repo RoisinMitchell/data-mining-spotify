@@ -18,10 +18,9 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-python -m ipykernel install --user --name cs4168-project --display-name "Python (CS4168 Project)"
 ```
 
-Then choose the `Python (CS4168 Project)` kernel in Jupyter or VS Code.
+Then choose the Python .venv as the kernel in Jupyter or VS Code.
 
 ## Team Workflow
 
